@@ -74,7 +74,7 @@ Install with:
 pip install tensorflow numpy pillow matplotlib
 ```
 
-GPU is strongly recommended — this notebook was originally run on Kaggle with 2×T4 GPUs.
+This notebook was originally run on Kaggle with 2×T4 GPUs.
 
 ## Known Limitations
 
@@ -94,11 +94,6 @@ This is a working baseline, not a tuned, production-ready model. Worth knowing b
 - Add `ModelCheckpoint` / `model.save()` to persist trained weights.
 - Threshold predictions explicitly (e.g., 0.5) before computing IoU/precision/recall to make metric semantics unambiguous.
 
-## Acknowledgments
 
-- Dataset: Mateusz Buda, Ashirbani Saha, Maciej A. Mazurowski — *"Association of genomic subtypes of lower-grade gliomas with shape features automatically extracted by a deep learning algorithm,"* Computers in Biology and Medicine, 2019.
-- Architecture: Ronneberger, Fischer, Brox — *"U-Net: Convolutional Networks for Biomedical Image Segmentation,"* MICCAI 2015.
 
-## License
 
-No license specified. Add a `LICENSE` file (e.g., MIT, Apache-2.0) if you intend others to reuse this code.
